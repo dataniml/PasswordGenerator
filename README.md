@@ -14,5 +14,6 @@ SPG.py : Script of the Secure Password Generator
 
 SPG_customtkinter_version.py : Script of the CustomTkinter version
 
+'
 
 © Data Animal 2025
