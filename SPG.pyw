@@ -133,4 +133,6 @@ generatedPass.pack()
 passwordLabel.place(x=13, y=85)
 copyBtn.place(x=295, y=84)
 
-root.mainloop()
+
+if __name__ == '__main__':
+    root.mainloop()

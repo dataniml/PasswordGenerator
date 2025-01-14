@@ -119,6 +119,7 @@ root = ctk.CTk()
 root.title("Secure Password Generator")
 root.geometry("350x145")
 root.resizable(False, False)
+root.after(201, lambda :root.iconbitmap('favicon.ico'))
 
 # Set widgets
 randomLabel = ctk.CTkLabel(root, text="Enter two random characters to strengthen the password", font=('Arial', 12))
@@ -136,4 +137,5 @@ generatedPass.pack()
 passwordLabel.place(x=10, y=105)
 copyBtn.place(x=285, y=105)
 
-root.mainloop()
+if __name__ == "__main__":
+    root.mainloop()
